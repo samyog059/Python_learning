@@ -1,3 +1,4 @@
-a=1
-b=3
-print(a+b)
+a=25
+b=35
+c=a+b
+print(c)
