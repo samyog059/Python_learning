@@ -1,3 +1,3 @@
 a=input("Enter a number:")
 b=input("Enter another number:")
-print("Sum is",a+b)
+print("Sum is",int(a)+int(b))
