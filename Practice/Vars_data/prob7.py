@@ -1,3 +1,4 @@
+print("Welcome to the Voting Eligibility Checker!")
 age = int (input("Enter your age:"))
 name = input('Enter your name:')
 if age>=18:
