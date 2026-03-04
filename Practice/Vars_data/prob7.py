@@ -1,2 +1,6 @@
 age = int (input("Enter your age:"))
 name = input('Enter your name:')
+if age>=18:
+    print(f"You are eligible to vote. Mr. {name}")
+    else:
+        print(f"Hey {name}, you are not eligible to vote yet. Please wait until you turn 18.")
