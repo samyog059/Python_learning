@@ -4,3 +4,5 @@ def sum_of_numbers(numbers):
     for num in numbers:
         total_sum += num
     return total_sum
+# Example usage
+numbers_list = [1, 2, 3, 4, 5]
