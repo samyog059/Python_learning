@@ -14,6 +14,7 @@ def study_routine():
     print("11. Have dinner")
     print("12. Relax and unwind before bed")a
     print("13. Go to bed at 10:00 PM ")
+    print("Remember to stay consistent and take care of yourself while studying!")
 # Example usage
 study_routine()
 
