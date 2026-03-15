@@ -12,7 +12,8 @@ def study_routine():
     print("9. Take a break and go for a walk")
     print("10. Study for another 1 hour")
     print("11. Have dinner")
-    print("12. Relax and unwind before bed")
+    print("12. Relax and unwind before bed")a
+    print("13. Go to bed at 10:00 PM ")
 # Example usage
 study_routine()
 
