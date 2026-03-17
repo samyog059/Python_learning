@@ -4,3 +4,4 @@ print(my_list[0:5])  # prints all elements from index 0 to 4
 fruits = ["apple", "banana", "cherry"]
 fruits.insert(3, "orange")  # inserts "orange" at index 1
 print(fruits)  
+# removing
