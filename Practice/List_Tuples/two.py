@@ -5,3 +5,5 @@ fruits = ["apple", "banana", "cherry"]
 fruits.insert(3, "orange")  # inserts "orange" at index 1
 print(fruits)  
 # removing
+fruits.remove("banana")  # removes "banana" from the list
+print(fruits)
