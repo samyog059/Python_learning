@@ -1,0 +1,2 @@
+kings_of_nepal=("Prithvi Narayan Shah", "Pratap Singh Shah", "Nara Bhupal Shah", "Rana Bahadur Shah", "Girvan Yuddha Bikram Shah", "Rajendra Bikram Shah", "Surendra Bikram Shah", "Trailokya Bir Bikram Shah", "Prithvi Bir Bikram Shah", "Tribhuvan Bir Bikram Shah", "Mahendra Bir Bikram Shah", "Birendra Bir Bikram Shah", "Dipendra Bir Bikram Shah", "Gyanendra Bir Bikram Shah")    
+print(kings_of_nepal)
