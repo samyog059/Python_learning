@@ -1,1 +1,2 @@
 Religions= ["Hinduism", "Islam", "Christianity", "Sikhism", "Buddhism", "Judaism"]
+print(Religions[0])
