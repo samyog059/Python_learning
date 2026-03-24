@@ -5,5 +5,5 @@ print(Religions[2]) // Output: Christianity
 print(Religions[3]) // Output: Sikhism
 print(Religions[4]) // Output: Buddhism
 print(Religions[5]) // Output: Judaism
-print(Religions[0:5]) // Output: All religions except Judaism
+
 print(Religions[0:6]) // Output: All religions
