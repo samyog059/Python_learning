@@ -1,4 +1,4 @@
-a="congratulations123"
+a="congratulations123@#"
 print(a.isalpha()) 
 print(a.isdigit())
 print(a.isalnum())
