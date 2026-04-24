@@ -5,7 +5,10 @@ class Car: #creating a class named Car
         self.model=model
 c1=Car(2020,"Toyota") 
 c2=Car(2025,"Deepal")
+c3=Car(2023,"Honda")
 print(c1.make)
 print(c1.model)
 print(c2.make)
 print(c2.model)
+print(c3.make)
+print(c3.model)
