@@ -2,3 +2,4 @@ Hello, World!
 This is a new line.
 Writing to a file is easy in Python.
 This line is appended to the file.
+I love you
