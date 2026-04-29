@@ -1,0 +1,3 @@
+Hello, World!
+This is a new line.
+Writing to a file is easy in Python.
