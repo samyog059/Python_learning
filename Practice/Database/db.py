@@ -1,18 +1,10 @@
 import sqlite3
-conn = sqlite3.connect('college.db')
-cur=conn.cursor()  
-cur.execute("""CREATE TABLE student(
-id INTEGER PRIMARY KEY,
-name TEXT NOT NULL,
-age INTEGER NOT NULL)
-""")
-conn.commit()
-print("Table created successfully")
-conn.close()
-# show table content
-conn = sqlite3.connect('college.db')
+conn=sqlite3.connect('college.db')
 cur=conn.cursor()
-cur.execute("SELECT * FROM student")
-rows = cur.fetchall()
-for row in rows:
-    print(row)
+cur.execute('''CREATE TABLE IF NOT EXISTS college
+               (id INTEGER PRIMARY KEY, name TEXT, age INTEGER)''')
+cur.execute("INSERT INTO college VALUES(1,'John Doe',20)")
+cur.execute("INSERT INTO college VALUES(2,'Jane Smith',22)")
+conn.commit()
+print("Data Inserted")
+conn.close()
